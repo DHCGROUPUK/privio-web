@@ -26,3 +26,4 @@ Thumbs.db
 # misc
 *.log
 next-env.d.ts
+.vercel
