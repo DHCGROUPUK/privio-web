@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Don't index Next.js internals or runtime endpoints
+Disallow: /_next/
+Disallow: /health
+
+Sitemap: https://privio.dhdev.click/sitemap.xml

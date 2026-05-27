@@ -1,0 +1,29 @@
+# Privio — Coordinated Vulnerability Disclosure
+# RFC 9116 compliant: https://www.rfc-editor.org/rfc/rfc9116
+
+Contact: mailto:security@dhcgroup.uk
+Expires: 2027-05-27T23:59:00.000Z
+Preferred-Languages: en
+Canonical: https://privio.dhdev.click/.well-known/security.txt
+Policy: https://github.com/DHCGROUPUK/Privio/blob/main/THREAT_MODEL.md
+Acknowledgments: https://github.com/DHCGROUPUK/Privio
+
+# We take security reports seriously.
+#
+# If you believe you've found a vulnerability in the Privio Android app, this website,
+# or any related infrastructure (relays, build pipeline, signing keys), please email
+# security@dhcgroup.uk with:
+#
+#   - A description of the issue and its impact
+#   - Steps to reproduce
+#   - Any proof-of-concept code or screenshots
+#   - Your preferred name for acknowledgement (optional)
+#
+# We commit to:
+#   - Acknowledging your report within 72 hours
+#   - Providing a status update within 7 days
+#   - Crediting you in the public disclosure (unless you'd prefer anonymity)
+#   - Not pursuing legal action against good-faith researchers
+#
+# Out of scope: rate limiting bypass on the marketing site, "EXIF data" reports,
+# self-XSS, missing CSP headers on public static assets, social engineering.
