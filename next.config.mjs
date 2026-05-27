@@ -1,15 +1,9 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === "production";
-const repoBase = isProd ? "/privio-web" : "";
-
 const nextConfig = {
-  output: "export",
-  basePath: repoBase,
-  assetPrefix: repoBase || undefined,
-  trailingSlash: true,
-  images: { unoptimized: true },
+  output: "standalone",
   reactStrictMode: true,
   poweredByHeader: false,
+  compress: true,
   experimental: {
     optimizePackageImports: ["lucide-react", "framer-motion"],
   },
